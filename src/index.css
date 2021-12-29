@@ -1,0 +1,36 @@
+body {
+  margin: 0;
+  padding: 0;
+}
+.bg-op-white {
+  background-color: rgba(255, 255, 255, 0.3) !important;
+}
+.bg-op-black {
+  background-color: rgba(0, 0, 0, 0.95) !important;
+}
+
+.window {
+  resize: both;
+  overflow: auto;
+}
+.react-calendar {
+  padding: 2rem;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border: none !important;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  width: 100% !important;
+}
+.css-h2okw {
+  height: auto !important;
+}
+.react-clock {
+  margin:auto;
+  margin-top:1rem;
+  width:20rem !important;
+  height:20rem !important;  
+  box-shadow: 0 0 20px rgba(0,0,0,.3);
+  border-radius:100%;
+}
